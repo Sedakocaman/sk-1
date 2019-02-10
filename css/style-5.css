@@ -1,0 +1,599 @@
+    body
+    {
+        font-family: 'Montserrat', sans-serif;
+        /*font-family: 'Arvo', serif;*/
+        margin: 0;
+        padding: 0;
+        border:0 solid;
+    }
+    .home
+    {
+        width: 100%;
+        background-color: #000000;
+        display: inline-block;
+    }
+    .header
+    {
+        display: block;
+        margin: 0 auto;
+        width: 1170px;
+        padding-top: 37px;
+
+    }
+    .header-left
+    {
+        float: left;
+        display: block;
+    }
+    .header-left h1
+    {
+        font-weight:bold;
+        font-size: 50px;
+        color:white;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .header-left span
+    {
+        display: inline-block;
+    }
+    .header-left span  a
+    {
+        color:white;
+    }
+    .header-left span a i
+    {
+        color: white;
+        font-size: 50px;
+        padding-right: 100px;
+    }
+    .right
+    {
+        display: inline-block;
+        float: right;
+        padding-top: 18px;
+    }
+    .header-right
+    {
+        display: inline-block;
+
+    }
+
+
+    .text-1
+    {
+        display: inline-block;
+    }
+
+    .text-1 span
+    {
+        font-weight: 600;
+        font-size: 15px;
+        color: #ffffff;
+    }
+    .text-1 span a
+    {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .text-1 span a i
+    {
+        color: #ffffff;
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    .text-2
+    {
+        display: inline-block;
+    }
+
+    .text-2 span
+    {
+        font-weight: 600;
+        font-size: 15px;
+        color: #ffffff;
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    .text-2 span a
+    {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .text-2 span a i
+    {
+        color: #ffffff;
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    .icons
+    {
+        display: block;
+        float: right;
+
+    }
+    .icon-spec1
+    {
+        display: block;
+
+    }
+    .icon-spec1 a
+    {
+        display: block;
+    }
+    .icon-spec1 a i
+    {
+        color: #ffffff;
+        font-size: 40px;
+        padding-bottom: 18px;
+    }
+
+
+    .slider
+    {
+        width: 100%;
+        display: inline-block;
+
+    }
+
+    .ara
+    {
+        width: 100%;
+        background-color: #000000;
+        display: inline-block;
+        padding-top: 13px;
+        padding-bottom: 13px;
+
+
+    }
+    .ara_sutun
+    {
+        display: block;
+        width: 941px;
+        margin: 0 auto;
+
+
+    }
+    .ara_sutun ul
+    {
+        display: inline-block;
+        border-bottom: 1px solid #ebebeb;;
+        border-top: 1px solid #ebebeb;
+        border-right: 1px solid #ebebeb;;
+        border-left: 1px solid #ebebeb;
+        width: 941px;
+        margin: 0;
+        padding: 0;
+
+
+    }
+    .ara ul li
+    {
+        display: inline-block;
+        width: 182px;
+        height: 170px;
+        border-right: 1px solid #ebebeb;
+        text-align: center;
+
+
+    }
+    .ara ul li:last-child
+    {
+        border-right: 0;
+    }
+    .ara ul li h6
+    {
+        font-size: 60px;
+        font-weight: 500;
+        color: #ffffff;
+        padding-top: 26px;
+        margin: 0;
+
+    }
+    .ara ul li p
+    {
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        margin: 0;
+        font-family: 'Arvo', serif;
+    }
+    .container
+    {
+        width: 100%;
+        background-color: #f0f0f2;
+        display: inline-block;
+        padding-bottom: 90px;
+    }
+    .container h3
+    {
+        font-size: 30px;
+        font-weight: 600;
+        color: #111111;
+        text-align: center;
+    }
+    .container-center
+    {
+        width: 1170px;
+        margin: 0 auto;
+        background: #f5f5f6;
+
+    }
+
+    .container-center p
+    {
+        font-size: 20px;
+        font-weight: 500;
+        color: #000000;
+        text-align: center;
+    }
+    .icons-2
+    {
+        width: 100%;
+        display: inline-block;
+    }
+    .icons-2 ul
+    {
+        width: 800px;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .icons-2 ul li
+    {
+        width: 160px;
+        height: 160px;
+        background-color: rgba(255, 0, 0, 0.14) ;
+        display: inline-block;
+        float: left;
+        margin-right: 155px;
+        text-align: center;
+        font-family: 'Arvo', serif;
+        color: #ffffff;
+
+
+    }
+    .icons-2 ul li:hover
+    {
+        color: black;
+        width: 160px;
+        height: 160px;
+        background-color: rgba(52, 152, 219, 0.25);
+        display: inline-block;
+        float: left;
+        margin-right: 155px;
+        text-align: center;
+        font-family: 'Arvo', serif;
+
+    }
+    .icons-2 ul li a p
+    {
+        font-weight: 400;
+        font-size: 20px;
+        padding-top: 26px;
+        margin: 0;
+
+    }
+    .icons-2 ul li a
+    {
+        font-weight: 400;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+
+
+
+    .icons-2 ul li a i
+    {
+        font-size: 40px;
+        padding-top: 34px
+    }
+    .icons-2 ul li:last-child
+    {
+        margin-right: 0;
+    }
+
+    .content
+    {
+        width: 100%;
+        background-color: #000000;
+        display: inline-block;
+        padding-top: 46px;
+    }
+    .content-center
+    {
+        width: 920px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .content-center h2
+    {
+        font-size: 30px;
+        color:#ebebeb;
+        font-weight: 600;
+        padding: 0;
+        margin:0
+    }
+    .content-center ul
+    {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .content-center ul li
+    {
+        display: inline-block;
+        padding-right: 23px;
+    }
+    .content-center ul li:last-child
+    {
+        padding-right: 0;
+    }
+    .content-center ul li a
+    {
+        color:white;
+        font-size: 24px;
+        font-weight: 500;
+        text-decoration: none;
+        font-family: 'Arvo', serif;
+    }
+    .content-center ul li a i
+    {
+        font-size: 16px;
+    }
+    .content-center ul li a:hover
+    {
+        color: #3498db;
+    }
+    .table
+    {
+        width: 100%;
+        display: inline-block;
+    }
+    .table-center
+    {
+        width: 920px;
+        display: block;
+        margin: 0 auto;
+    }
+    .table-center ul
+    {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+
+    }
+    .table-center ul li
+    {
+        width: 284px;
+        height: 284px;
+        background-color: #ebebf1;
+        padding: 0;
+        margin: 0;
+        margin-right: 33px;
+        margin-bottom: 33px;
+        float: left;
+        display: inline-block;
+    }
+    .table-center ul li:last-child
+    {
+        margin-right: 0px;
+
+    }
+    .block
+    {
+        width: 100%;
+        background-color: #2c3e6a;
+        display: inline-block;
+    }
+    .block-center
+    {
+        width: 1110px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 41px;
+        margin-bottom: 86px;
+    }
+    .text
+    {
+        display: block;
+        width: 806px;
+        margin: 0 auto;
+        margin-bottom: 39px;
+
+    }
+    .text h2
+    {
+        font-size: 30px;
+        font-weight: 600;
+        color: #ebebeb;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        padding-bottom: 42px;
+
+    }
+    .text p
+    {
+        font-size: 20px;
+        font-weight: 300;
+        color: #ebebeb;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: 'Arvo', serif;
+
+    }
+    .text span
+    {
+        font-size: 20px;
+        font-weight: 300;
+        color: #ebebeb;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .slider-2
+    {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .sli-img
+    {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        float: left;
+        margin-right: 22px;
+        position: relative;
+    }
+
+    .sli-img img:last-child
+    {
+        margin-right: 0px;
+    }
+    .sli-img img
+    {
+        width: 255px;
+        height: 243px;
+        display: inline-block;
+        border-radius: 11px;
+    }
+    .sli-tx
+    {
+
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+
+    }
+    .sli-tx h2
+    {
+        font-size: 20px;
+        color: #000000;
+        font-weight: 500;
+    }
+    .sli-tx p
+    {
+        font-size: 18px;
+        color: #000000;
+        font-family: 'Arvo', serif;
+        font-weight: 300;
+    }
+
+    .about
+    {
+        width: 100%;
+        display: inline-block;
+        background-color: #000000;
+    }
+    .about-center
+    {
+        width: 1170px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about-center ul
+    {
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 54px;
+
+    }
+    .about-center ul li
+    {
+        display: inline-block;
+        width: 265px;
+        margin-right: 165px;
+        height: 382px;
+        float: left;
+        line-height: 150%;
+
+    }
+    .about-center ul li:last-child
+    {
+        margin-right: 0;
+    }
+    .about-center ul li h6
+    {
+        font-weight: 500;
+        font-size: 24px;
+        color: #ebebeb;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 44px;
+        padding-top: 43px;
+    }
+    .about-center ul li p
+    {
+        font-weight: 400;
+        font-size: 18px;
+        color: #ebebeb;
+        margin: 0;
+        padding: 0;
+        font-family: 'Arvo', serif;
+
+    }
+    .adress
+    {
+        display: inline-block;
+        padding-top: 72px;
+        padding-top: 97px;
+
+    }
+    .adress p
+    {
+        font-weight: 400;
+        font-size: 18px;
+        color: #ebebeb;
+        margin: 0;
+        padding: 0;
+        font-family: 'Arvo', serif;
+    }
+    .maps
+    {
+        width: 100%;
+        display: inline-block;
+        background-color: #000000;
+    }
+    .maps-center
+    {
+        width: 1170px;
+        display: block;
+        margin: 0 auto;
+    }
+    .maps-center
+    {
+        width: 1170px;
+        height: 317px;
+    }
+    .footer
+    {
+        width: 100%;
+        display: inline-block;
+    }
+    .footer-center
+    {
+        width: 1170px;
+        display: block;
+        margin: 0 auto;
+
+    }
+    .footer-center p
+    {
+        color: #a4a4a4;
+        font-size: 15px;
+        float: left;
+        font-weight: 300;
+        margin-top: 87px;
+        margin-bottom: 43px;
+    }
+
+

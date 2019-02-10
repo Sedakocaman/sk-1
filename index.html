@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style-5.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/w3.css">
+    <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:20px;padding:0}
+    </style>
+</head>
+<body>
+<div class="home">
+    <div class="header">
+        <div class="header-left">
+<span>
+                <a href="#">
+                <i class="fas fa-bars"></i> </a> </span>
+            <h1>
+               SK
+           </h1>
+        </div>
+        <div class="right">
+        <div class="header-right text-1">
+                <span><a><i class="fas fa-phone"></i>
+
+                </a>  +90.000.00.00 </span>
+            </div>
+                <div class="header-right text-2">
+                <span><a><i class="fas fa-envelope"></i>
+
+                    </a> info@sedakocaman.com
+                </span>
+                    </div>
+
+            <div class="icons">
+                <div class="icon-s icon-spec1">
+                <a href="https://www.facebook.com/sedakocaman"><i class="fab fa-facebook-f"></i>
+                    
+
+                </a>
+                 <a href="https://wwww.twitter.com/seda_kocamann">
+                    <i class="fab fa-twitter"></i>
+
+
+                </a>
+                </div>
+
+
+
+
+        </div>
+        </div>
+
+    </div>
+    <div class="slider">
+
+        <div class="w3-content w3-display-container">
+            <div class="w3-display-container mySlides">
+                <img src="img/img_mountains.jpg" style="width:100%">
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                    SKCMN!
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="img/img_snowtops.jpg" style="width:100%">
+
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="img/img_lights.jpg" style="width:100%">
+
+            </div>
+
+
+
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white w3-white" onclick="currentDiv(3)"></span>
+            </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " w3-white";
+        }
+    </script>
+    <div class="ara">
+        <div class="ara_sutun">
+            <ul>
+                <li>
+                   <h6> 44 </h6>
+                    <p>Client Work With</p></li>
+                <li><h6>8</h6>
+                    <p>Award Won</p></li>
+                <li><h6>196</h6>
+                    <p>Cups of Coffee</p></li>
+                <li><h6>31</h6>
+                    <p>Pizza Ordered</p></li>
+                <li><h6>4</h6>
+                    <p>Team Player</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h3>
+        SERVICES
+    </h3>
+        <div class="container-center">
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                pariatur. Excepteur sint occaecat cupidatat non proidentunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="icons-2">
+            <ul>
+                <li>
+                    <a href="#"><i class="fas fa-camera"></i>
+                   <p> Photography</p>
+                </a>
+
+                </li>
+                <li>
+                    <a href="#"> <i class="fas fa-paint-brush"></i>
+                       <p> Graphic Design</p>
+                    </a>
+
+                </li>
+                <li> <a href="#">
+                    <i class="fas fa-headphones"></i>
+                  <p>  Audio Producing</p>
+                </a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-center">
+            <h2> LATEST PROJECTS</h2>
+            <ul>
+                <li> <a href="#"> <i class="far fa-circle"></i>
+
+                    ALL </a> </li>
+                <li> <a href="#"> <i class="far fa-circle"></i>
+
+                    PHOTOGRAPHY </a> </li>
+                <li> <a href="#"> <i class="far fa-circle"></i>
+
+                    GRAPHIC DESING  </a> </li>
+                <li> <a href="#"> <i class="far fa-circle"></i>
+
+                    AUDIO PRODUCING </a> </li>
+
+
+            </ul>
+            <div class="table">
+                <div class="table-center">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                    </ul>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                    </ul><ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                </ul>
+                    <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                </ul>
+                    <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                </ul>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="block">
+        <div class="block-center">
+            <div class="text">
+                <h2> OUR LATEST BLOG </h2>
+                <p>
+                    Lorem ipsum dolor sit amet,
+
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+
+            <div class="slider-2">
+            <div class="sli-img">
+                 <img src="img/slider-2.jpg">
+              <div class="sli-tx">
+                  <h2>LOREM IPSUM DOLOR</h2>
+                  <p>123 Lorem ipsum dolor</p>
+              </div>
+
+            </div>
+                <div class="sli-img">
+                <img src="img/slider-2.jpg">
+                    <div class="sli-tx">
+                        <h2>LOREM IPSUM DOLOR</h2>
+                        <p>123 Lorem ipsum dolor</p>
+                    </div>
+            </div>
+            <div class="sli-img">
+                    <img src="img/slider-2.jpg">
+                <div class="sli-tx">
+                    <h2>LOREM IPSUM DOLOR</h2>
+                    <p>123 Lorem ipsum dolor</p>
+                </div>
+                </div>
+
+                <div class="sli-img">
+                    <img src="img/slider-2.jpg">
+                    <div class="sli-tx">
+                        <h2>LOREM IPSUM DOLOR</h2>
+                        <p>123 Lorem ipsum dolor</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <div class="about">
+        <div class="about-center">
+
+            <ul>
+                <li>
+                    <h6>GET IN TOUCH</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                   <div class="adress">
+                       <p>LEPIDUS St, No 131
+                   Creative City, Jordan
+                   +123.456.789.0
+                           info@website.com</p></div>
+                </li>
+                <li>
+                    <h6>
+                        TWITTER
+                    </h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    </p>
+
+                </li>
+                <li>
+                    <h6>
+                        ABOUT US
+                    </h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="maps">
+    <div class="maps-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12029.66635544566!2d29.00724228344921!3d41.081743668692205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab66eb1aaff27%3A0x306025824b2de11e!2zTGV2ZW50IE1haGFsbGVzaSwgMzQzMzAgQmXFn2lrdGHFny_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1529926824873" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="footer-center">
+            <p>ALL COPYRIGHT RESERVED TO SEDA KOCAMAN © 2018  </p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+</html>
